@@ -25,19 +25,27 @@
       loadNavbar: true,
       // 加载 _sidebar.md 渲染导航
       loadSidebar: true,
+      //_sidebar.md从每个级别目录加载。如果当前目录没有_sidebar.md，它将回退到父目录
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      },
       // 加载 _coverpage.md 渲染封面且分割封面
       coverpage: true,
       onlyCover: true,
       //更改页面时，回到屏幕顶部
-      auto2top:true,
+      auto2top: true,
       // 仓库地址
-      repo: '/ForgetMelody/ForgetMelody.github.io',
+      repo: 'LeaderDoger/LeaderDoger.github.io',
 
 
-      search:{
-        paths:'auto',
-        placeholder:'搜索',
-        nodata:'找不到结果',
+      homepage: 'README.md',
+      mergeNavbar: true,
+      topMargin: 40,
+      search: {
+        paths: 'auto',
+        placeholder: '搜索',
+        nodata: '找不到结果',
+        depth: 3,
       },
 
       markdown: {
@@ -66,13 +74,15 @@
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <!-- 代码复制 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
- <!-- 代码高亮 -->
- <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
- <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
-
-
-
-
+  <!-- 代码高亮 -->
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
+  <!-- emoji -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <!-- 字数统计 -->
+  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+  <!-- 分页 -->
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 
 </body>
 
