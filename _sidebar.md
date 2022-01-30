@@ -13,7 +13,7 @@
 * [**操作系统**](note/操作系统/README.md) 
 * [**机器人**](note/ros笔记/README.md) 
   * **Ros**
-    * [Ros安装笔记](note/ros笔记/README.md) 
+    * [Ros安装笔记](note/ros笔记/Ros的安装.md) 
 
 * [Git使用笔记](note/git.md) 
 
