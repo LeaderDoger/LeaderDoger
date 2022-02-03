@@ -90,3 +90,12 @@ chmod +x ./run.sh
 ```
 ./run.sh
 ```
+# 使用海龟程序进行安装测试
+
+打开三个命令窗,分别运行一下三个指令
+
+```
+roscore
+rosrun turtlesim turtlesim_node
+rosrun turtlesim turtle_teleop_key
+```
