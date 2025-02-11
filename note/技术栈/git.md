@@ -61,7 +61,7 @@ git config --global user.email 24736743@qq.com   #邮箱
 
 #### 原理图
 
-![image-20220127100306814](git.assets/image-20220127100306814.png)
+![image-20220127100306814](pictures/image-20220127100306814.png)
 
 #### 克隆远程仓库
 
@@ -110,7 +110,7 @@ tempbuild/   #忽略build/目录下的所有文件doc
 
 #### 使用SSH公钥实现免密码登录
 
-![image-20220127111027098](git.assets/image-20220127111027098.png)
+![image-20220127111027098](pictures/image-20220127111027098.png)
 
 进入该用户的.ssh文件，使用ssh-keygen
 
@@ -120,11 +120,11 @@ ssh-keygen -t rsa /推荐
 
 生成两个文件后结束
 
-![image-20220127111400548](git.assets/image-20220127111400548.png)
+![image-20220127111400548](pictures/image-20220127111400548.png)
 
 将公钥添加进账户里
 
-![image-20220127113310953](git.assets/image-20220127113310953.png)
+![image-20220127113310953](pictures/image-20220127113310953.png)
 
 #### 使用ssh可能会发生的问题
 
